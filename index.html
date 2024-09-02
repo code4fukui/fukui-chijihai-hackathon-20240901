@@ -19,9 +19,6 @@
     white-space: pre-wrap;
     padding: 0 1em;
   }
-  img {
-    width: 100%;
-  }
   table, th, table, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -33,6 +30,16 @@
   }
   #imgtitle {
     width: 100%;
+  }
+  .box {
+    float: left;
+    padding: 10px;
+    margin: 5px;
+  }
+  .container:after {
+    content: "";
+    display: block;
+    clear: both;
   }
   </style>
   </head><body>
@@ -65,7 +72,7 @@
   
   　※オープンソースソフトウェア（ＯＳＳ）とは、ソフトウェアのソースコードが公開され、利用や改変、再配布を行うことが　誰に対しても許可されているソフトウェアのことを指します。
   
-  <img src="image1.jpg">
+  <img src="image1.jpg" style="width: 100%;">
   昨年度の様子
   <a href="https://www.pref.fukui.lg.jp/doc/dx-suishin/top_d/fil/R5_20231216_hackathon.pdf">福井県三国湊における地域課題解決ハッカソン</a>
   <a href="https://www.pref.fukui.lg.jp/doc/dx-suishin/top_d/fil/R5_20230819_ideathon.pdf">福井県敦賀市アイデアソン</a>
@@ -126,14 +133,26 @@
   Ｄａｙ２において次の賞を選出します。
   
   福井県知事杯（最優秀賞　:　副賞　賞金１０万円）１チーム　
-  コメンテーター賞（特別賞（技術視点賞、公共視点賞）:　副賞　賞金5万円）　２チーム　
+  コメンテーター賞（特別賞（技術視点賞、公共視点賞）:　副賞　賞金5万円）　２チーム
+
+  コメンテーター紹介 (氏名五十音順)<div class="container"><div class="box">コメンテーター（技術視点評価者）
+<img src="commentator-1.png" height="192">
+下山 紗代子　様
+一般社団法人リンクデータ 代表理事
+インフォ・ラウンジ株式会社 取締役
+デジタル庁 オープンデータ伝道師、他</div><div class="box">コメンテーター（公共視点評価者）
+<img src="commentator-2.png" height="192">
+平本 健二　様
+（独）情報処理推進機構 参与
+デジタル庁（非常勤）</div>
+    </div>
   </section>
         
   <section>
   <h2>5. 申し込み</h2>
   参加希望者は<a href="https://code4fukui.github.io/fukui-chijihai-hackathon-20240901/appreq.html">「応募要項」</a>を必ずご確認の上、
   参加フォームに必要事項を記載して申し込み下さい。
-  申し込み締切日：<s>令和６年８月30日（金）</s>
+  申し込み締切日：<s>令和６年８月30日（金）</s><span style="color:red">令和６年９月２０日（金）</span>
   
   <a href="https://forms.gle/HKn8ab1UwC9VaQwGA">福井県知事杯ハッカソン　２０２４ 参加フォーム</a>
   </section>
